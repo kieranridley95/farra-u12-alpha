@@ -1,1 +1,0 @@
-export default function About() { return (<div className="mx-auto max-w-6xl px-4 py-12"><h2 className="text-2xl font-bold">About</h2><p className="mt-4 text-white/70">Community club focusing on player development, respect and fun.</p></div>) }
