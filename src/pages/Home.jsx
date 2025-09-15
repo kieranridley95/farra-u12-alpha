@@ -10,7 +10,7 @@ import TeamFormation from './components/TeamFormation.jsx';
 import Sponsor from './components/sponsor.jsx';
 import SignupSponsor from './components/signup-sponsor.jsx';
 import TeamIntro from './components/TeamIntro.jsx'
-
+import HeadLineGrid from './components/HeadLineGrid.jsx'
 
 //const heroImg = '/img/team.jpg';
 
@@ -108,6 +108,10 @@ export default function Home() {
           {/* Formation Section */}
           <div className="mt-8">
               <TeamFormation />
+          </div>
+
+          <div className="mt-8">
+              <HeadLineGrid />
           </div>
 
           <div className="mt-8">

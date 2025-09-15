@@ -50,7 +50,8 @@ const formation = {
             position: 'Goalkeeper',
             bio: 'Quick reflexes and strong leadership from the back.',
             photo: finleyPhoto,
-            playerstat: {
+            playerstat:
+            {
                 assist: 0,
                 goals: 0,
                 cleansheets: 1,
@@ -179,6 +180,15 @@ const formation = {
             playerstat: { ...defaultStatsByPosition.Forward },
             awards: [],
         },
+        {
+            number: 14,
+            name: 'Joey',
+            position: 'Forward',
+            bio: 'Energetic and fearless attacker with a great eye for goal.',
+            photo: finleyPhoto,
+            playerstat: { ...defaultStatsByPosition.Forward },
+            awards: [],
+        }
     ],
 };
 

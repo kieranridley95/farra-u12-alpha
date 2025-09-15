@@ -1,5 +1,4 @@
-﻿import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import { useState, React } from 'react'
+﻿import { useState, React } from 'react'
 import ReactDOM from 'react-dom/client'
 import { BrowserRouter, Routes, Route, Link } from 'react-router-dom'
 import Home from './pages/Home'
@@ -9,6 +8,16 @@ import Contact from './pages/Contact'
 import About from './pages/About'
 import './index.css'
 import FarraBadge from './pages/img/fdbadge.png'
+
+import AlbumView from './pages/components/AlbumView'
+
+import GalleryHome from './pages/components/GalleryHome'
+
+import SliderTest from './pages/components/SliderTest'
+
+
+
+
 
 function Nav() {
     const [isOpen, setIsOpen] = useState(false)
@@ -79,9 +88,11 @@ function App() {
         <Routes>
           <Route path='/' element={<Home />} />
           <Route path='/fixtures' element={<Fixtures />} />
+          <Route path='gallery' element={<GalleryHome />} />
           <Route path='/squad' element={<Squad />} />
           <Route path='/about' element={<About />} />
-          <Route path='/contact' element={<Contact />} />
+                  <Route path='/contact' element={<Contact />} />
+                  <Route path='/slider-test' element={<SliderTest />} />
         </Routes>
       </main>
     </BrowserRouter>
