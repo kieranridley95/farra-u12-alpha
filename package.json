@@ -2,28 +2,20 @@
   "name": "farringdon-clone-v2",
   "private": true,
   "version": "0.0.1",
-  "homepage": "https://github.com/kieranridley95/farra-u12-alpha",
+  "homepage": "https://kieranridley95.github.io/farra-u12-alpha",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-<<<<<<< HEAD
     "preview": "vite preview",
     "predeploy": "vite build",
     "deploy": "gh-pages -d dist"
-=======
-    "preview": "vite preview"
->>>>>>> 2b9b0a1e75287dacbdbef164adf4d5292b37a82b
   },
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-<<<<<<< HEAD
     "react-router-dom": "^6.22.3",
     "swiper": "^12.0.1"
-=======
-    "react-router-dom": "^6.22.3"
->>>>>>> 2b9b0a1e75287dacbdbef164adf4d5292b37a82b
   },
   "devDependencies": {
     "@vitejs/plugin-react": "^4.2.1",
